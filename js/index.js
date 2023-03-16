@@ -39,4 +39,71 @@ const siteContent = {
   
   // Example: Update the img src for the logo
   let logo = document.getElementById("logo-img");
-  logo.setAttribute('src', siteContent["nav"]["img-src"])
+  logo.setAttribute('src', siteContent["nav"]["img-src"]);
+
+
+const h1 = document.getElementsByTagName('h1')
+h1.textContent = "DOM Is Awesome"
+
+const button1 = document.getElementsByTagName('button')
+button1.textContent= "Get Started"
+
+let cta = document.getElementById("cta-img");
+cta.setAttribute('src', "img/header-img.png");
+
+
+const menu =document.querySelectorAll('h4')
+menu[0].textContent= "Features"
+
+const featurescontent= document.querySelectorAll('p')
+featurescontent[0].textContent="Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+//console.log(featurescontent)
+
+const abouth4 = document.querySelectorAll('h4')
+abouth4[1].textContent= "About"
+
+
+const aboutcontent= document.querySelectorAll('p')
+aboutcontent[1].textContent= "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+let middleimg= document.getElementById('middle-img');
+middleimg.setAttribute('src', 'img/mid-page-accent.jpg')
+
+const servicesh4= document.querySelectorAll('h4')
+servicesh4[2].textContent= "Services"
+
+const Servicescontent = document.querySelectorAll('p')
+Servicescontent[2].textContent= "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+    //console.log(Servicescontent)
+
+
+    const producth4= document.querySelectorAll('h4');
+    producth4[3].textContent="Product"
+
+    const productcontent= document.querySelectorAll('p');
+    productcontent[3].textContent= "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+      
+
+    const visionh4= document.querySelectorAll('h4');
+    visionh4[4].textContent="Vision"
+
+    const visioncontent= document.querySelectorAll('p');
+    visioncontent[4].textContent= "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+    
+
+    let contacth4= document.querySelectorAll('h4');
+    contacth4[5].textContent= "Contact"
+
+    let address= document.querySelectorAll('p');
+    address[5].textContent= "123 Way 456 Street Somewhere, USA"
+
+
+  let phone= document.querySelectorAll('p');
+  phone[6].textContent= "1 (888) 888-8888"
+
+  let email= document.querySelectorAll('p');
+  email[7].textContent= "sales@greatidea.io"
+
+  let copyright= document.querySelectorAll('p');
+  copyright[8].textContent= "Copyright Great Idea! 2018"
+
