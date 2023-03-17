@@ -37,20 +37,44 @@ const siteContent = {
     },
   };
   
+
+  
   // Example: Update the img src for the logo
   let logo = document.getElementById("logo-img");
   logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
+const navLinks = document.querySelectorAll('nav a');
+navLinks[0].textContent= "Services"
 
-const h1 = document.getElementsByTagName('h1')
-h1.textContent = "DOM Is Awesome"
+const navtwo = document.querySelectorAll('nav a');
+navtwo[1].textContent= "Product"
+
+let nav3 = document.querySelectorAll('nav a');
+nav3[2].textContent= "Vision"
+
+let nav4= document.querySelectorAll('nav a');
+nav4[3].textContent= "Features"
+
+let nav5= document.querySelectorAll('nav a');
+nav5[4].textContent= "About"
+
+let nav6 = document.querySelectorAll('nav a');
+nav6[5].textContent= "Contact"
+
+
+const div = document.getElementsByTagName('div')
+div.textContent = "DOM Is Awesome"
+ console.log(div)
+
+ //let tca = document.querySelectorAll('cta h1');
+ //tca[1].textContent= "Dom Is Awesome" Tried this way 2
 
 const button1 = document.getElementsByTagName('button')
 button1.textContent= "Get Started"
 
+
 let cta = document.getElementById("cta-img");
 cta.setAttribute('src', "img/header-img.png");
-
 
 const menu =document.querySelectorAll('h4')
 menu[0].textContent= "Features"
